@@ -2,7 +2,7 @@
 
 TO_ADDR="youremail@gmail.com"
 FROM_ADDR="\"WAN_WATCHDOG\" <from@yourdomain.org>"
-SUBJECT="Subject: NETGHETTO WAN IP CHANGED"
+SUBJECT="Subject: WAN IP CHANGED"
 
 
 CURRENT_IP=`curl -s -m 5 checkip.dyndns.org | sed -e 's/<[^>]*>//g' | awk -F ' ' '{print $6}' | sed -e 's/\r//g'`
