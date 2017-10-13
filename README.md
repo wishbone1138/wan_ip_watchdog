@@ -28,4 +28,6 @@ crontab tmp
 rm tmp
 ```
 
+Edit wan_watchdog.sh to suite your needs.  It should work out of the box, but you may want to change some of the email addresses and what the from email address is.  NOTE: you can change the from email address for gmail, but it will ignore everything but the quoted name before the email.
+
 
